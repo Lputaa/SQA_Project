@@ -16,7 +16,7 @@ melalui sistem yang efisien, responsif, dan real-time.
 ------------------------------------------------------------------------
 ## SQA Development
 Untuk melihat hasil Analysys Software dapat dilihat pada direktori berikut ini
-📁 ***[Software Design Documentation](./SQA_Development)**
+📁 ***[SQA_Development](./SQA_Development)**
 * 📁 **[Software Design Documentation](./Software%20Design%20Documentation)**
   * 📁 [1. Pendahuluan](./Software%20Design%20Documentation/1.%20Pendahuluan)
     * 📄 [1.1 Tujuan](./Software%20Design%20Documentation/1.%20Pendahuluan/1.1%20Tujuan)
