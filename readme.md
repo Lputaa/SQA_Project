@@ -1,36 +1,22 @@
-# Software Quality Documentation
+# Tempat-in
 
-Tim Pengembang
+Tempat-in adalah platform web reservasi kafe/restoran yang dirancang
+untuk mengintegrasikan proses pemesanan meja, pre-order menu, dan
+manajemen reservasi dalam satu sistem digital terpadu. Aplikasi ini
+bertujuan menyederhanakan interaksi antara pelanggan dan pihak restoran
+melalui sistem yang efisien, responsif, dan real-time.
+------------------------------------------------------------------------
 
-Berikut pembagian peran dalam tim pengembang:
+## Tim Pengembang
 
-- **Tryas — Project Manager & System Analyst**  
-  Bertanggung jawab atas perencanaan proyek, pengelolaan timeline, serta analisis kebutuhan sistem.
+-   Tryas --- Project Manager & System Analyst\
+-   Salma --- UI/UX Designer & Technical Writer\
+-   Fauzan --- Software Engineer & Quality Assurance
 
-- **Salma — UI/UX Designer & Technical Writer**  
-  Bertugas merancang antarmuka pengguna dan menyusun dokumentasi sistem.
-
-- **Fauzan — Software Engineer & Quality Assurance**  
-  Mengembangkan sistem serta melakukan pengujian untuk memastikan kualitas dan kesesuaian dengan spesifikasi.
-
-Repositori ini berisi dokumentasi yang berfokus pada aspek **Software Quality** dalam proses pengembangan perangkat lunak. Seluruh dokumen disusun untuk memastikan sistem yang dikembangkan memenuhi standar kualitas yang mencakup keandalan, maintainability, usability, efisiensi, dan keamanan.
-
-## Latar Belakang
-Kualitas perangkat lunak merupakan faktor kritis yang menentukan keberhasilan suatu sistem. Dalam konteks Software Quality, tidak hanya fungsi yang berjalan dengan benar, tetapi juga bagaimana sistem dapat diandalkan, mudah dipelihara, serta mampu memenuhi ekspektasi pengguna.
-
-Pendekatan yang digunakan dalam repositori ini mengacu pada praktik **Software Quality Assurance (SQA)**, yang mencakup perencanaan, pengendalian, dan evaluasi kualitas sepanjang siklus hidup perangkat lunak.
-
-## Ruang Lingkup
-Dokumentasi dalam repositori ini mencakup:
-- Definisi dan analisis kebutuhan kualitas sistem
-- Perancangan sistem dengan mempertimbangkan atribut kualitas
-- Perencanaan dan strategi pengujian
-- Evaluasi dan validasi kualitas perangkat lunak
-
-📂 Struktur Direktori Dokumen
-
-Silakan klik pada nama folder atau file di bawah ini untuk mengakses dokumen pengujian:
-
+------------------------------------------------------------------------
+## SQA Development
+Untuk melihat hasil Analysys Software dapat dilihat pada direktori berikut ini
+📁 ***[Software Design Documentation](./SQA_Development)**
 * 📁 **[Software Design Documentation](./Software%20Design%20Documentation)**
   * 📁 [1. Pendahuluan](./Software%20Design%20Documentation/1.%20Pendahuluan)
     * 📄 [1.1 Tujuan](./Software%20Design%20Documentation/1.%20Pendahuluan/1.1%20Tujuan)
@@ -94,20 +80,26 @@ Silakan klik pada nama folder atau file di bawah ini untuk mengakses dokumen pen
     * 📄 [3.1 Pencarian Berdasarkan Kata](./Software%20User%20Documentation/3.%20Penggunaan%20Rasane%20Laen/3.1%20Pencarian%20Berdasarkan%20Kata)
     * 📄 [3.2 Pencarian Berdasarkan Kalimat](./Software%20User%20Documentation/3.%20Penggunaan%20Rasane%20Laen/3.2%20Pencarian%20Berdasarkan%20Kalimat)
     * 📄 [3.3 Pencarian Berdasarkan Predefined](./Software%20User%20Documentation/3.%20Penggunaan%20Rasane%20Laen/3.3%20Pencarian%20Berdasarkan%20Predefined)
-    * 📄 [3.4 Halaman Tentang](./Software%20User%20Documentation/3.%20Penggunaan%20Rasane%20Laen/3.4%20Halaman%20Tentang).
+    * 📄 [3.4 Halaman Tentang](./Software%20User%20Documentation/3.%20Penggunaan%20Rasane%20Laen/3.4%20Halaman%20Tentang)
 
-## Tujuan
-Dokumentasi ini bertujuan untuk:
-- Menjamin kualitas perangkat lunak sesuai standar yang ditetapkan
-- Mengurangi risiko kesalahan dan defect selama pengembangan
-- Menyediakan acuan dalam proses pengujian dan evaluasi
-- Meningkatkan kepuasan pengguna melalui sistem yang andal dan efisien
+## Fitur Utama
 
-## Standar Kualitas
-Pendekatan kualitas dalam repositori ini dapat mengacu pada model seperti:
-- ISO/IEC 25010 (Software Quality Model)
-- Software Quality Assurance (SQA)
+-   Reservasi Meja\
+-   Pre-order Menu\
+-   Manajemen Reservasi\
+-   Autentikasi Pengguna\
+-   Realtime Update\
+-   Riwayat Reservasi
 
----
+## Teknologi yang Digunakan
 
-Dokumentasi ini bersifat iteratif dan akan terus diperbarui seiring dengan proses pengembangan dan evaluasi kualitas sistem.
+-   Frontend: React\
+-   Backend: Firebase (Firestore, Authentication)\
+-   Styling: Tailwind CSS\
+-   Package Manager: npm
+
+## Status Proyek
+
+Proyek ini berada pada tahap MVP (Minimum Viable Product).
+
+------------------------------------------------------------------------
