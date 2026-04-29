@@ -78,8 +78,6 @@ SQA_Project/
 │   ├── 📄 Test Cases
 │   ├── 📄 Defect / Bug Report
 │   └── 📄 Test Execution Result
-│
-├── 📄 231164_SystemDesignDocument....   # Dokumen SDD utama (PDF/DOCX)
 └── 📄 README.md                         # Dokumen ini
 ```
 ## 🛠️ Testing Tools 
