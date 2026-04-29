@@ -92,9 +92,9 @@ SQA_Project/
 
 | Tool | Kegunaan |
 |---|---|
-| **GitHub Branch** | Repository pengambangan |
+| **Git** | Pengecekan versi, maaintain local, pull repo |
+| **GitHub** | Repository online, update documentation |
 | **GitHub Issues** | Pelacakan bug dan defect secara terpusat |
-| **GitHub Projects** | Manajemen sprint dan progres pengujian |
 | **Markdown Reports** | Dokumentasi hasil test di dalam repositori ini |
 
 
