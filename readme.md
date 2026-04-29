@@ -1,113 +1,234 @@
-# Software Quality Documentation
+# 🍽️ Tempat-in
 
-Tim Pengembang
+> **Platform reservasi kafe & restoran berbasis web** — pesan meja, pre-order menu, dan bayar dalam satu sistem digital terpadu.
 
-Berikut pembagian peran dalam tim pengembang:
-
-- **Tryas — Project Manager & System Analyst**  
-  Bertanggung jawab atas perencanaan proyek, pengelolaan timeline, serta analisis kebutuhan sistem.
-
-- **Salma — UI/UX Designer & Technical Writer**  
-  Bertugas merancang antarmuka pengguna dan menyusun dokumentasi sistem.
-
-- **Fauzan — Software Engineer & Quality Assurance**  
-  Mengembangkan sistem serta melakukan pengujian untuk memastikan kualitas dan kesesuaian dengan spesifikasi.
-
-Repositori ini berisi dokumentasi yang berfokus pada aspek **Software Quality** dalam proses pengembangan perangkat lunak. Seluruh dokumen disusun untuk memastikan sistem yang dikembangkan memenuhi standar kualitas yang mencakup keandalan, maintainability, usability, efisiensi, dan keamanan.
-
-## Latar Belakang
-Kualitas perangkat lunak merupakan faktor kritis yang menentukan keberhasilan suatu sistem. Dalam konteks Software Quality, tidak hanya fungsi yang berjalan dengan benar, tetapi juga bagaimana sistem dapat diandalkan, mudah dipelihara, serta mampu memenuhi ekspektasi pengguna.
-
-Pendekatan yang digunakan dalam repositori ini mengacu pada praktik **Software Quality Assurance (SQA)**, yang mencakup perencanaan, pengendalian, dan evaluasi kualitas sepanjang siklus hidup perangkat lunak.
-
-## Ruang Lingkup
-Dokumentasi dalam repositori ini mencakup:
-- Definisi dan analisis kebutuhan kualitas sistem
-- Perancangan sistem dengan mempertimbangkan atribut kualitas
-- Perencanaan dan strategi pengujian
-- Evaluasi dan validasi kualitas perangkat lunak
-
-📂 Struktur Direktori Dokumen
-
-Silakan klik pada nama folder atau file di bawah ini untuk mengakses dokumen pengujian:
-
-* 📁 **[Software Design Documentation](./Software%20Design%20Documentation)**
-  * 📁 [1. Pendahuluan](./Software%20Design%20Documentation/1.%20Pendahuluan)
-    * 📄 [1.1 Tujuan](./Software%20Design%20Documentation/1.%20Pendahuluan/1.1%20Tujuan)
-    * 📄 [1.2 Ruang Lingkup](./Software%20Design%20Documentation/1.%20Pendahuluan/1.2%20Ruang%20Lingkup)
-    * 📄 [1.3 Gambaran Umum Dokumen](./Software%20Design%20Documentation/1.%20Pendahuluan/1.3%20Gambaran%20Umum%20Dokumen)
-  * 📁 [2. Deskripsi Umum](./Software%20Design%20Documentation/2.%20Deskripsi%20Umum)
-    * 📄 [2.1 Perspektif Produk](./Software%20Design%20Documentation/2.%20Deskripsi%20Umum/2.1%20Perspektif%20Produk)
-    * 📄 [2.2 Manfaat Produk](./Software%20Design%20Documentation/2.%20Deskripsi%20Umum/2.2%20Manfaat%20Produk)
-    * 📄 [2.3 Karakteristik User](./Software%20Design%20Documentation/2.%20Deskripsi%20Umum/2.3%20Karakteristik%20User)
-    * 📄 [2.4 Batasan-Batasan](./Software%20Design%20Documentation/2.%20Deskripsi%20Umum/2.4%20Batasan-Batasan)
-  * 📁 [3. Software Design](./Software%20Design%20Documentation/3.%20Software%20Design)
-    * 📄 [3.1 Kebutuhan Fungsional](./Software%20Design%20Documentation/3.%20Software%20Design/3.1%20Kebutuhan%20Fungsional)
-    * 📄 [3.2 Kebutuhan Interface](./Software%20Design%20Documentation/3.%20Software%20Design/3.2%20Kebutuhan%20Interface)
-    * 📄 [3.3 Lingkungan Operasi](./Software%20Design%20Documentation/3.%20Software%20Design/3.3%20Lingkungan%20Operasi)
-    * 📄 [3.4 Batas Perancangan](./Software%20Design%20Documentation/3.%20Software%20Design/3.4%20Batas%20Perancangan)
-    * 📄 [3.5 Model Data](./Software%20Design%20Documentation/3.%20Software%20Design/3.5%20Model%20Data)
-    * 📄 [3.6 Rancangan Arsitektur Sistem](./Software%20Design%20Documentation/3.%20Software%20Design/3.6%20Rancangan%20Arsitektur%20Sistem)
-    * 📄 [3.7 Rancangan Interface Halaman](./Software%20Design%20Documentation/3.%20Software%20Design/3.7%20Rancangan%20Interface%20Halaman)
-
-* 📁 **[Software Requirement Specification](./Software%20Requirement%20Specification)**
-  * 📁 [1. Pendahuluan](./Software%20Requirement%20Specification/1.%20Pendahuluan)
-    * 📄 [1.1 Tujuan](./Software%20Requirement%20Specification/1.%20Pendahuluan/1.1%20Tujuan)
-    * 📄 [1.2 Ruang Lingkup](./Software%20Requirement%20Specification/1.%20Pendahuluan/1.2%20Ruang%20Lingkup)
-    * 📄 [1.3 Definisi, Istilah, dan Singkatan](./Software%20Requirement%20Specification/1.%20Pendahuluan/1.3%20Definisi,%20Istilah,%20dan%20Singkatan)
-    * 📄 [1.4 Referensi](./Software%20Requirement%20Specification/1.%20Pendahuluan/1.4%20Referensi)
-    * 📄 [1.5 Referensi yang Digunakan](./Software%20Requirement%20Specification/1.%20Pendahuluan/1.5%20Referensi%20yang%20Digunakan)
-    * 📄 [1.6 Gambaran Umum Dokumen](./Software%20Requirement%20Specification/1.%20Pendahuluan/1.6%20Gambaran%20Umum%20Dokumen)
-    * 📄 [1.6.1 Deskripsi Gambaran Umum](./Software%20Requirement%20Specification/1.%20Pendahuluan/1.6.1%20Deskripsi%20Gambaran%20Umum)
-    * 📄 [1.6.2 Kebutuhan Fungsional](./Software%20Requirement%20Specification/1.%20Pendahuluan/1.6.2%20Kebutuhan%20Fungsional)
-  * 📁 [2. Deskripsi Umum](./Software%20Requirement%20Specification/2.%20Deskripsi%20Umum)
-    * 📄 [2.1 Perspektif Produk](./Software%20Requirement%20Specification/2.%20Deskripsi%20Umum/2.1%20Perspektif%20Produk)
-    * 📄 [2.2 Software Interface](./Software%20Requirement%20Specification/2.%20Deskripsi%20Umum/2.2%20Software%20Interface)
-    * 📄 [2.3 Hardware Interface](./Software%20Requirement%20Specification/2.%20Deskripsi%20Umum/2.3%20Hardware%20Interface)
-    * 📄 [2.4 Manfaat Produk](./Software%20Requirement%20Specification/2.%20Deskripsi%20Umum/2.4%20Manfaat%20Produk)
-    * 📄 [2.5 Karakteristik User](./Software%20Requirement%20Specification/2.%20Deskripsi%20Umum/2.5%20Karakteristik%20User)
-    * 📄 [2.6 Batasan-Batasan](./Software%20Requirement%20Specification/2.%20Deskripsi%20Umum/2.6%20Batasan-Batasan)
-    * 📄 [2.7 Asumsi dan Ketergantungan](./Software%20Requirement%20Specification/2.%20Deskripsi%20Umum/2.7%20Asumsi%20dan%20Ketergantungan)
-
-* 📁 **[Software Test Plan](./Software%20Test%20Plan)**
-  * 📁 [1. Pendahuluan](./Software%20Test%20Plan/1.%20Pendahuluan)
-    * 📄 [1.1 Tujuan](./Software%20Test%20Plan/1.%20Pendahuluan/1.1%20Tujuan)
-    * 📄 [1.2 Latar Belakang](./Software%20Test%20Plan/1.%20Pendahuluan/1.2%20Latar%20Belakang)
-    * 📄 [1.3 Ruang Lingkup](./Software%20Test%20Plan/1.%20Pendahuluan/1.3%20Ruang%20Lingkup)
-  * 📁 [2. Lingkungan Pengujian Perangkat Lunak](./Software%20Test%20Plan/2.%20Lingkungan%20Pengujian%20Perangkat%20Lunak)
-    * 📄 [2.1 Material Pengujian](./Software%20Test%20Plan/2.%20Lingkungan%20Pengujian%20Perangkat%20Lunak/2.1%20Material%20Pengujian)
-    * 📄 [2.2 Teknik Pengujian](./Software%20Test%20Plan/2.%20Lingkungan%20Pengujian%20Perangkat%20Lunak/2.2%20Teknik%20Pengujian)
-  * 📁 [3. Rencana Pengujian](./Software%20Test%20Plan/3.%20Rencana%20Pengujian)
-    * 📄 [3. Rencana Pengujian](./Software%20Test%20Plan/3.%20Rencana%20Pengujian/3.%20Rencana%20Pengujian)
-  * 📁 [4. Hasil Pengujian](./Software%20Test%20Plan/4.%20Hasil%20Pengujian)
-    * 📄 [4. Hasil Pengujian](./Software%20Test%20Plan/4.%20Hasil%20Pengujian/4.%20Hasil%20Pengujian)
-
-* 📁 **[Software User Documentation](./Software%20User%20Documentation)**
-  * 📁 [1. Pendahuluan](./Software%20User%20Documentation/1.%20Pendahuluan)
-    * 📄 [1.1 Tujuan](./Software%20User%20Documentation/1.%20Pendahuluan/1.1%20Tujuan)
-    * 📄 [1.2 Karakteristik User](./Software%20User%20Documentation/1.%20Pendahuluan/1.2%20Karakteristik%20User)
-    * 📄 [1.3 System Requirements](./Software%20User%20Documentation/1.%20Pendahuluan/1.3%20System%20Requirements)
-  * 📁 [2. Deskripsi Umum](./Software%20User%20Documentation/2.%20Deskripsi%20Umum)
-    * 📄 [2.1 Perspektif Produk](./Software%20User%20Documentation/2.%20Deskripsi%20Umum/2.1%20Perspektif%20Produk)
-    * 📄 [2.2 Manfaat Produk](./Software%20User%20Documentation/2.%20Deskripsi%20Umum/2.2%20Manfaat%20Produk)
-  * 📁 [3. Penggunaan Rasane Laen](./Software%20User%20Documentation/3.%20Penggunaan%20Rasane%20Laen)
-    * 📄 [3.1 Pencarian Berdasarkan Kata](./Software%20User%20Documentation/3.%20Penggunaan%20Rasane%20Laen/3.1%20Pencarian%20Berdasarkan%20Kata)
-    * 📄 [3.2 Pencarian Berdasarkan Kalimat](./Software%20User%20Documentation/3.%20Penggunaan%20Rasane%20Laen/3.2%20Pencarian%20Berdasarkan%20Kalimat)
-    * 📄 [3.3 Pencarian Berdasarkan Predefined](./Software%20User%20Documentation/3.%20Penggunaan%20Rasane%20Laen/3.3%20Pencarian%20Berdasarkan%20Predefined)
-    * 📄 [3.4 Halaman Tentang](./Software%20User%20Documentation/3.%20Penggunaan%20Rasane%20Laen/3.4%20Halaman%20Tentang).
-
-## Tujuan
-Dokumentasi ini bertujuan untuk:
-- Menjamin kualitas perangkat lunak sesuai standar yang ditetapkan
-- Mengurangi risiko kesalahan dan defect selama pengembangan
-- Menyediakan acuan dalam proses pengujian dan evaluasi
-- Meningkatkan kepuasan pengguna melalui sistem yang andal dan efisien
-
-## Standar Kualitas
-Pendekatan kualitas dalam repositori ini dapat mengacu pada model seperti:
-- ISO/IEC 25010 (Software Quality Model)
-- Software Quality Assurance (SQA)
+<p align="center">
+  <img src="https://img.shields.io/badge/Laravel-12.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PHP-8.2+-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TailwindCSS-3.x-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Midtrans-Payment-003D6A?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Status-MVP%20Beta-yellow?style=for-the-badge"/>
+</p>
 
 ---
 
-Dokumentasi ini bersifat iteratif dan akan terus diperbarui seiring dengan proses pengembangan dan evaluasi kualitas sistem.
+## 📋 Daftar Isi
+
+- [Tentang Proyek](#-tentang-proyek)
+- [Tim Pengembang](#-tim-pengembang)
+- [SQA Documentation](#-sqa-documentation)
+- [Testing Tools](#-testing-tools). 
+- [Fitur Utama](#-fitur-utama)
+- [Teknologi](#-teknologi)
+- [Arsitektur Sistem](#-arsitektur-sistem)
+- [Skema Database](#-skema-database)
+- [Peran Pengguna](#-peran-pengguna)
+- [Instalasi](#-instalasi)
+
+
+---
+
+## 📖 Tentang Proyek
+
+**Tempat-in** hadir untuk menjawab kebutuhan digitalisasi industri F&B lokal. Sistem ini mengintegrasikan tiga proses utama — *pemesanan meja*, *pre-order makanan*, dan *pembayaran digital* — dalam satu platform yang efisien dan responsif.
+
+Proyek ini dikembangkan sebagai bagian dari mata kuliah **Software Quality Assurance (SQA)**, dengan fokus pada penerapan standar kualitas perangkat lunak dari tahap perencanaan hingga pengujian.
+
+---
+---
+
+## 👨‍💻 Tim Pengembang
+
+| Nama | NIM | Role |
+|---|---|---|
+| **Tryas** | 20231310075 | Project Manager & System Analyst |
+| **Salma** | 20231310085 | UI/UX Designer & Technical Writer |
+| **Fauzan** | 202310109 | Software Engineer & Quality Assurance |
+
+---
+## 📁 SQA Documentation
+
+Seluruh dokumentasi Software Quality Assurance tersedia di direktori [`SQA_Development/`](./SQA_Development):
+
+## 📂 Repository Structure
+
+```
+SQA_Project/
+│
+├── 📁 Software Design Documentation/    # Arsitektur & Desain Sistem
+│   ├── 📁 Deskripsi Umum/
+│   ├── 📁 Pendahuluan/
+│   └── 📁 Software Design/              # ERD, UML, UI/UX, Flowchart
+│
+├── 📁 Software Requirements Specification/  # Spesifikasi Kebutuhan
+│   ├── Use Case Diagram & Narasi
+│   ├── Functional & Non-Functional Requirements
+│   └── Business Rules & Constraints
+│
+├── 📁 Software Testing Documentation/      # Panduan Pengguna Akhir
+│   ├── 📁 Blackbox
+│   ├── 📁 Whitebox
+│   └── 📁 Greybox
+│
+├── 📁 Software User Documentation/      # Panduan Pengguna Akhir
+│   └── User Manual (fitur per modul)
+│
+├── 📁 Test Plan/                        # Inti Aktivitas SQA
+│   ├── 📄 Test Scenarios
+│   ├── 📄 Test Cases
+│   ├── 📄 Defect / Bug Report
+│   └── 📄 Test Execution Result
+└── 📄 README.md                         # Dokumen ini
+```
+## 🛠️ Testing Tools 
+### Backend & API Testing
+
+| Tool | Kegunaan |
+|---|---|
+| **Postman / Insomnia** | Pengujian endpoint API (REST), validasi response, dan autentikasi token |
+| **PHPUnit** | Unit testing & feature testing pada layer backend Laravel |
+
+### Manajemen & Pelaporan
+
+| Tool | Kegunaan |
+|---|---|
+| **Git** | Pengecekan versi, maaintain local, pull repo |
+| **GitHub** | Repository online, update documentation |
+| **GitHub Issues** | Pelacakan bug dan defect secara terpusat |
+| **Markdown Reports** | Dokumentasi hasil test di dalam repositori ini |
+
+
+---
+
+
+## ✨ Fitur Utama
+
+| Fitur | Deskripsi | Status |
+|---|---|:---:|
+| 🔐 **Autentikasi** | Register, login, verifikasi email | ✅ |
+| 📅 **Reservasi Meja** | Pilih restoran, meja, tanggal & waktu | ✅ |
+| 🍜 **Pre-order Menu** | Pesan makanan sebelum datang | ✅ |
+| 📦 **Paket Booking** | Pilih paket khusus (VIP, Standar, dll.) | ✅ |
+| 💳 **Pembayaran Digital** | Integrasi Midtrans Snap (down payment 50%) | ✅ |
+| 🔁 **Reschedule** | Pengajuan perubahan jadwal reservasi (H-1) | ✅ |
+| 📜 **Riwayat Reservasi** | Pantau status semua reservasi | ✅ |
+| 🏠 **Dashboard Admin** | Kelola menu, meja, reservasi, & paket | ✅ |
+| 👑 **Dashboard Superadmin** | Kelola semua restoran & user | ✅ |
+
+---
+
+## 🛠️ Teknologi
+
+```
+Frontend   : Laravel Blade + Tailwind CSS
+Backend    : Laravel 12 (PHP 8.2+)
+Database   : MySQL (SQLite untuk testing)
+Payment    : Midtrans Snap API
+Build Tool : Vite + npm
+Testing    : PHPUnit 11
+```
+
+---
+
+## 🏗️ Arsitektur Sistem
+
+```
+Tempat-in/
+├── app/
+│   ├── Http/
+│   │   ├── Controllers/
+│   │   │   ├── Admin/          # BookingPackage, MenuItem, Reservation, Restaurant, Table
+│   │   │   ├── Auth/           # PartnerRegistration
+│   │   │   ├── SuperAdmin/     # Dashboard, Restaurant, User
+│   │   │   ├── AuthController.php
+│   │   │   ├── ReservationController.php
+│   │   │   └── MidtransWebhookController.php
+│   │   └── Middleware/
+│   │       └── RoleMiddleware.php   # Guard: user | admin | superadmin
+│   ├── Models/                  # User, Reservation, Restaurant, dll.
+│   └── Providers/
+├── database/
+│   ├── migrations/              # 13 migration files
+│   ├── seeders/
+│   └── factories/
+├── resources/views/             # Blade templates per role
+├── routes/web.php               # Route terpisah per role
+├── tests/
+│   ├── Feature/
+│   └── Unit/
+└── SQA_Development/             # Dokumentasi SQA lengkap
+```
+
+---
+
+## 🗄️ Skema Database
+
+```
+users ──────────────┬──── restaurants ──┬──── menu_items
+                    │                   ├──── booking_packages
+                    │                   └──── tables
+                    │
+                    └──── reservations ─┬──── menu_item_reservation (pivot)
+                                        ├──── booking_packages (FK)
+                                        └──── tables (FK)
+```
+
+Tabel utama: `users`, `restaurants`, `reservations`, `menu_items`, `booking_packages`, `tables`, `menu_item_reservation`
+
+---
+
+## 👥 Peran Pengguna
+
+| Role | Akses |
+|---|---|
+| 👤 **User** | Lihat restoran, buat reservasi, pre-order, bayar, reschedule, riwayat |
+| 🏪 **Admin** | Kelola restoran milik sendiri, menu, meja, paket, & konfirmasi reservasi |
+| 🛡️ **Superadmin** | Kelola semua restoran, semua user, monitoring platform |
+
+---
+
+## 🚀 Instalasi
+
+### Prasyarat
+
+- PHP >= 8.2
+- Composer
+- Node.js & npm
+- MySQL
+
+### Langkah Instalasi
+
+```bash
+# 1. Clone repository
+git clone https://github.com/Lputaa/SQA_test.git
+cd SQA_test
+git checkout Beta
+
+# 2. Install dependencies
+composer install
+npm install
+
+# 3. Konfigurasi environment
+cp .env.example .env
+php artisan key:generate
+
+# 4. Isi konfigurasi database & Midtrans di .env
+# DB_DATABASE, DB_USERNAME, DB_PASSWORD
+# MIDTRANS_SERVER_KEY, MIDTRANS_CLIENT_KEY
+
+# 5. Migrasi & seeder database
+php artisan migrate --seed
+
+# 6. Jalankan aplikasi
+composer run dev
+```
+
+Aplikasi akan berjalan di `http://localhost:8000`
+
+### Menjalankan Tests
+
+```bash
+php artisan test
+```
+
+---
