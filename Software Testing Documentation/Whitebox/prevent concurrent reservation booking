@@ -1,0 +1,7 @@
+DB::transaction(function () {
+   $table = Table::where('id', $tableId)
+       ->lockForUpdate()
+       ->first();
+
+   // proses reservasi
+});
